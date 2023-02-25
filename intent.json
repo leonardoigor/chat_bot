@@ -1,0 +1,163 @@
+{
+    "intents": [
+        {
+            "tag": "saudacao",
+            "patterns": [
+                "oi",
+                "olá",
+                "e aí",
+                "como vai",
+                "bom dia",
+                "boa tarde",
+                "boa noite"
+            ],
+            "responses": [
+                "Olá, como posso ajudar?",
+                "Oi, tudo bem?",
+                "E aí, como posso ajudar?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "tchau",
+                "até mais",
+                "até logo",
+                "até a próxima"
+            ],
+            "responses": [
+                "Até mais!",
+                "Tchau!",
+                "Até logo!",
+                "Até a próxima!"
+            ]
+        },
+        {
+            "tag": "agradecimento",
+            "patterns": [
+                "obrigado",
+                "muito obrigado",
+                "valeu",
+                "agradeço",
+                "obrigada",
+                "muito obrigada",
+                "obg",
+                "vlw"
+            ],
+            "responses": [
+                "De nada, sempre às ordens!",
+                "Por nada, é um prazer ajudar!",
+                "Fico feliz em ajudar!",
+                "Disponha sempre!",
+                "Não há de quê!",
+                "Estou aqui para ajudar!"
+            ]
+        },
+        {
+            "tag": "informacao_pessoal",
+            "patterns": [
+                "qual é o seu nome?",
+                "quem é você?",
+                "de onde você é?",
+                "qual é a sua idade?",
+                "você é um robô?",
+                "você é humano?",
+                "você é uma inteligência artificial?"
+            ],
+            "responses": [
+                "Meu nome é Chatbot, sou um robô projetado para ajudar!",
+                "Sou um assistente virtual criado para ajudar!",
+                "Sou o Chatbot, sua assistente virtual!",
+                "Sou uma inteligência artificial criada para auxiliar!",
+                "Sou uma máquina, mas estou aqui para ajudar!",
+                "Não sou humano, sou um chatbot!",
+                "Sou um robô projetado para ajudar!"
+            ]
+        },
+        {
+            "tag": "informacao_empresa",
+            "patterns": [
+                "quem é a empresa?",
+                "qual é o nome da empresa?",
+                "o que a empresa faz?",
+                "qual é a missão da empresa?",
+                "onde fica a empresa?",
+                "quais são os produtos da empresa?",
+                "quem é o fundador da empresa?"
+            ],
+            "responses": [
+                "Nossa empresa é a [nome da empresa].",
+                "A [nome da empresa] é uma empresa que se dedica a [missão da empresa].",
+                "Nossa empresa está localizada em [cidade/estado/país].",
+                "Alguns dos nossos produtos incluem [produtos da empresa].",
+                "Nosso fundador é [nome do fundador]."
+            ]
+        },
+        {
+            "tag": "suporte_tecnico",
+            "patterns": [
+                "não consigo acessar o site",
+                "o site está fora do ar",
+                "não consigo fazer login",
+                "o produtonão está funcionando",
+                "preciso de ajuda com a instalação",
+                "como faço para resetar minha senha?",
+                "estou com um problema no meu dispositivo",
+                "o aplicativo está travando",
+                "não estou conseguindo usar a plataforma"
+            ],
+            "responses": [
+                "Por favor, verifique sua conexão com a internet e tente novamente.",
+                "O site pode estar em manutenção, tente novamente mais tarde.",
+                "Tente resetar sua senha através da opção 'Esqueci minha senha'.",
+                "Por favor, envie mais informações sobre o problema para que possamos ajudar.",
+                "Tente reinstalar o produto e verifique se ele está atualizado.",
+                "Por favor, envie mais informações sobre o dispositivo e o problema encontrado.",
+                "Tente limpar o cache do aplicativo e reiniciá-lo.",
+                "Por favor, envie mais informações sobre a plataforma e o problema encontrado.",
+                "Por favor, entre em contato com nosso suporte técnico para obter ajuda."
+            ]
+        },
+        {
+            "tag": "pedido_produto",
+            "patterns": [
+                "quero comprar um produto",
+                "como faço para comprar um produto?",
+                "quanto custa o produto?",
+                "tem desconto no produto?",
+                "quais são as opções de pagamento?",
+                "posso pagar com cartão de crédito?",
+                "posso pagar com boleto bancário?",
+                "quanto tempo leva para receber o produto?"
+            ],
+            "responses": [
+                "Para comprar um produto, acesse nossa loja online e faça seu pedido.",
+                "O preço do produto é [preço].",
+                "Sim, temos desconto em alguns produtos. Verifique em nossa loja online.",
+                "Aceitamos pagamentos por cartão de crédito, boleto bancário e transferência bancária.",
+                "Sim, aceitamos cartões de crédito.",
+                "Sim, é possível pagar com boleto bancário.",
+                "O tempo de entrega pode variar dependendo da sua localização. Verifique em nossa loja online."
+            ]
+        },
+        {
+            "tag": "servico_cliente",
+            "patterns": [
+                "como faço para entrar em contato com o serviço ao cliente?",
+                "qual é o telefone do serviço ao cliente?",
+                "o serviço ao cliente está disponível 24 horas?",
+                "como posso fazer uma reclamação?",
+                "como posso fazer uma sugestão?",
+                "como posso fazer um elogio?"
+            ],
+            "responses": [
+                "Para entrar em contato com o serviço ao cliente, envie um email para [email do serviço ao cliente].",
+                "O telefone do serviço ao cliente é [telefone do serviço ao cliente].",
+                "Nosso serviço ao cliente está disponível de [horário de atendimento].",
+                "Para fazer uma reclamação, envie um email para [email de reclamações].",
+                "Para fazer uma sugestão, envie um email para [email de sugestões].",
+                "Para fazer um elogio, envie um email para [email de elogios]."
+            ]
+        }
+    ]
+}
